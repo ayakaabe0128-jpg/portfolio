@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+  <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+  <!--Googleフォント-Zen Kaku Gothic New-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <!--Googleフォント-Cormorant-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <!--オリジナルCSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="cover">
+    <header class="page-header">
+      <div>
+        <h1>Portfolio</h1>
+        <nav>
+         <ul class="header-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#works">Works</a></li>
+         </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+       <div class="hero-inner">
+         <p class="hero-label">Web Director / Portfolio</p>
+         <h1 class="hero-title">やさしさが伝わる、心地よいWeb体験を。</h1>
+         <p class="hero-text">
+        ユーザーにとってストレスのない導線と、ブランドらしさの両立を意識したWebサイト制作の練習を続けています。</p>
+         <a href="#works" class="hero-button">Worksを見る</a>
+        </div>
+      </section>
+
+      <section id="about" class="container">
+        <h2>About</h2>
+        <div class="about-container fadein-section">
+          <div>
+            <p class="name">はじめまして、Webディレクター志望の  <span class="profile-name"> aya </span>と申します。</p>
+            <p>これまで培ってきた正確な事務処理能力と業務改善の経験とWeb広告業界での経験を活かし、関わるメンバーが動きやすい進行づくりと、ユーザー・クライアント双方の目的を整理できるWebディレクターを目指しています。</p>
+          </div>
+          <div class="experience">
+            <h3>これまでの経歴</h3>
+            <p> 大学卒業後は主に経理職として、毎月数百件規模の請求書処理や書類作成を担当し、Excelを用いたデータベース化やマニュアル整備によって、業務時間の大幅な短縮やミス削減に取り組んできました。<br> その後Web広告代理店にて、入稿業務や配信内容の確認を行い、複雑な変更内容をパターン化してフローを標準化することで、配信事故の防止とチーム全体の業務効率化に貢献しました。<br> 職業訓練校でHTML/CSSやFigma、Illustrator、Photoshopを学び、ワイヤーフレーム作成や簡単なWebサイト制作を通して、デザインと実装の両面からWeb制作の流れを理解することを心がけています。</p>
+          </div>
+        </div>
+      </section>
+      <section id="skill" class="container">
+        <h2>Skill</h2>
+        <div class="skill-container fadein-section">
+          <div>
+            <img src="images/icon1.png" alt="HTML/CSS">
+            <p>HTML/CSS</p>
+            <p>アニメーション等の動きを出したコーディングができます。レスポンシブ対応も可能です。</p>
+          </div>
+          <div>
+            <img src="images/icon2.png" alt="Illustrator">
+            <p>Illustrator</p>
+            <p>ファーストビューの背景作成やフォントを加工してのブランドロゴ作成など行っています。デザインカンプにはIllustratorを使用しています。</p>
+          </div>
+          <div>
+            <img src="images/icon3.png" alt="Photoshop">
+            <p>Photoshop</p>
+            <p>バナー作成やWebサイトの模写などを行っています。iPhoneで撮影した写真に加工もしています。</p>
+          </div>
+          <div>
+            <img src="images/icon4.png" alt="Figma">
+            <p>Figma</p>
+            <p>サイトマップやワイヤーフレーム作成など行っています。</p>
+          </div>
+        </div>
+      </section>
+
+        
+      <section id="works" class="container">
+        <h2>Works</h2>
+        <div class="grid">
+          <article class="work-item">
+            <div class="item_photo"><a href="mellowroom.html"><img src="images/mellowroom.jpg" alt="img01"></a></div>
+            <h3 class="work-item_title">Mellow Room</h3>
+            <div class="tag-container">
+              <p class="tag website">#WEBサイト</p>
+              <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>架空の女性向けルームウェア「Mellow Room」の公式サイトを制作しました。</p>
+            </div>
+          </article>
+          <article class="work-item">
+            <div class="item_photo"><a href="works/ruaazul/index.html"><img src="images/ruaazul.jpg" alt="img02"></a></div>
+            <h3 class="work-item_title">Rua Azul</h3>
+            <div class="tag-container">
+             <p class="tag website">#WEBサイト</p>
+             <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>架空のポルトガルをイメージしたカフェの公式サイトを制作しました。</p>
+            </div>
+          </article>
+          <article class="work-item">
+          <div class="item_photo"><a href="#"><img src="images/portfolio.jpg" alt="img03"></a></div>
+            <h3 class="work-item_title">Portfolio</h3>
+            <div class="tag-container">
+             <p class="tag website">#WEBサイト</p>
+             <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>作品や経歴をまとめたポートフォリオを制作しました。</p>
+            </div>
+          </article>
+          <article class="work-item">
+          <div class="item_photo"><a href="works/wcbcafe/index.html"><img src="images/wcbcafe.jpg" alt="img04"></a></div>
+            <h3 class="work-item_title">WCBカフェ</h3>
+            <div class="tag-container">
+             <p class="tag website">#WEBサイト</p>
+             <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>
+              SBクリエイティブ『1冊ですべて身につくHTML&CSSとWebデザイン入門講座』の演習で制作しました。
+            </p>
+            </div>
+          </article>
+          <article class="work-item">
+            <div class="item_photo"><img src="images/banner_orange.jpg" alt="img05"></div>
+            <h3>新作メニュー広告</h3>
+            <div class="tag-container">
+             <p class="tag banner">#バナー</p>
+             <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>オレンジの新鮮さが伝わるジュースの広告を制作しました。</p>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <div class="item_photo"><img src="images/banner_web.jpg" alt="img06"></div>
+            <h3>Webデザイン講座広告</h3>
+            <div class="tag-container">
+             <p class="tag banner">#バナー</p>
+             <p class="tag training-project">#研修制作</p>
+            </div>
+            <div class="item_caption"><p>Webデザイン講座のFacebook広告を制作しました。
+            </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="color-studies" class="container">
+        <h2>Color Studies</h2>
+        <p class="color-studies-explanation">春の陽気が感じられる１８℃の気候を表現しました。</p>
+        <div class="color-studies-container">
+         <article class="item">
+          <div class="item_photo"><img src="images/color-studies1.png" alt="img01"> </div>
+          <a href="#"></a>
+          <div class="tag-container">
+            <p class="tag color-studies">#色彩構成</p>
+            <p class="tag training-project">#研修制作</p>
+          </div>
+          <div class="item_caption"><p>桜をイメージしながら奥行きは透明度で表現し、質感の違いで単調にならないように表現しました。</p>
+          </div>
+         </article>
+         <article class="item">
+          <div class="item_photo"><img src="images/color-studies2.png" alt="img01"> </div>
+          <a href="#"></a>
+          <div class="tag-container">
+            <p class="tag color-studies">#色彩構成</p>
+            <p class="tag training-project">#研修制作</p>
+          </div>
+          <div class="item_caption"><p>淡いカラフルな色と柔らかさで春の訪れを表現しつつ、彩度や明度が低めの色で寒さも残る春先を表現しました。</p>
+          </div>
+         </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+       <small class="copyright-text">&copy;2025 ay</small>
+      </div>
+    </footer>
+
+</body>
+</html>
